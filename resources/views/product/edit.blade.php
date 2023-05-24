@@ -29,7 +29,7 @@
 
                         <div class="form-group">
                             <label for="exampleInputEmail1">Description</label>
-                            <textarea name="product_description" class="form-control" rows="5">{{ $product->product_description }}"</textarea>
+                            <textarea name="product_description" class="form-control" rows="5"> {{ $product->product_description }} </textarea>
                         </div>
 
                         <div class="form-group">

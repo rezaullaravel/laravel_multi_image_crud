@@ -52,9 +52,6 @@ class ProductController extends Controller
             }
         }
 
-
-
-
         return redirect()->back()->with('message','Product added successfully');
     }//end method
 
